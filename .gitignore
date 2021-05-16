@@ -1,0 +1,12 @@
+*/terraform.tfvars
+*/terraform.tfstate
+*/terraform.tfstate.backup
+*/.terraform.lock.hcl
+*/.terraform
+*/mykey*
+examples/**/terraform.tfvars
+examples/**/terraform.tfstate
+examples/**/terraform.tfstate.backup
+examples/**/.terraform
+examples/**/mykey*
+examples/**/.terraform.lock.hcl
