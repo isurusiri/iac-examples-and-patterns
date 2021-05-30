@@ -119,3 +119,5 @@ Once everything is done, don't forget to deprovision the resources,
 ```
 $ terraform destroy
 ```
+
+Complete blog post is available in [here >>](https://isurusiri.medium.com/provision-an-ec2-instance-in-a-vpc-with-terraform-f5f6cdf53fe8)
