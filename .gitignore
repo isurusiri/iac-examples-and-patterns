@@ -10,3 +10,4 @@ examples/**/terraform.tfstate.backup
 examples/**/.terraform
 examples/**/mykey*
 examples/**/.terraform.lock.hcl
+examples/**/devkey*
