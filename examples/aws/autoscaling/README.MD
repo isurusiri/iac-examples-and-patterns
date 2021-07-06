@@ -6,3 +6,33 @@ Provisioning an EC2 instance may not be enough to handle dynamic performance nee
 
 - An AWS launch configuration: This is the component that defines AMIs and regions like configurations.
 - An autoscaling group: This specifies the properties used to scale resources. For example the CPU threshold to be considered.
+
+This repository presents Terraform code required to provision EC2 instances with AWS autoscaling. While doing it, it will,
+
+- Provision three public and private subnets in three availability zones.
+- Expose the EC2 instances to the internet via an Internet Gateway.
+- Place required routing associations in route tables.
+- Define AWS launch configuration to provision EC2 instnces.
+- Define an autoscaling group to manage EC2 instances via the AWS launch configuration.
+
+## Solution Overview
+
+This section provides a simple description on each AWS resource used in this solution.
+
+### Code Organization
+
+Code in this repository is organized as below,
+
+```
+|-- autoscaling.tf
+|-- autoscalingpolicy.tf
+|-- backend.tf
+|-- internetgateway.tf
+|-- key.tf
+|-- provider.tf
+|-- securitygroup.tf
+|-- subnets.tf
+|-- vars.tf
+|-- versions.tf
+|-- vpc.tf
+```
