@@ -5,6 +5,7 @@ resource "aws_instance" "public-main" {
     subnet_id              = aws_subnet.main-public-sn-1.id
     vpc_security_group_ids = [aws_security_group.sg-allow-ssh.id]
     key_name               = aws_key_pair.devkeypair.key_name
+    iam_instance_profile   = aws_iam_instance_profile.ec2_instance_profile.name
 }
 
 output "public_ip_main" {
