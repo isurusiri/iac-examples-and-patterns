@@ -6,7 +6,7 @@ Provisioning an EC2 instance in AWS is one of the simplest tasks. However, it is
 
 ![Solution Overview](https://github.com/isurusiri/iac-examples-and-patterns/blob/main/examples/aws/ec2-in-a-vpc/misc/vpc-n-ec2.png?raw=true)
 
-This sample code presentas Terraform code required to provision an EC2 instance inside a VPC. While doing do, it will,
+This sample code presentas Terraform code required to provision an EC2 instance inside a VPC. While doing so, it will,
 
 - provision public and private subnet in three availability zones.
 - expose the EC2 instance to the internet via an Internet Gateway.
