@@ -59,5 +59,8 @@ Code in this repository is organized as below,
 
 ## Solution Overview   
 
-This section provides a simple description on each AWS resource used in this solution.   
+This section provides a simple description on each important AWS resource specific in this solution.   
 
+### IAM Role   
+
+Similar to IAM users, IAM role is an identity that defintes specific permissions. The permission policy of an IAM role determines what can and cannot do by the identity. 
