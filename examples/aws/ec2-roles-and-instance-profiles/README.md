@@ -63,4 +63,8 @@ This section provides a simple description on each important AWS resource specif
 
 ### IAM Role   
 
-Similar to IAM users, IAM role is an identity that defintes specific permissions. The permission policy of an IAM role determines what can and cannot do by the identity. 
+Similar to IAM users, IAM role is an identity that defines specific permissions. The permission policy of an IAM role determines what can and cannot do by the identity.   
+
+### IAM Policy   
+
+Access to AWS resources are managed by the IAM policies attached to identities or other AWS resources. A policy is an object inside AWS that defines permissions of a resource or an identity.   

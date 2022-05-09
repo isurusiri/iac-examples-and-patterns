@@ -6,4 +6,5 @@ This repository contains various patterns in infrastructure as code domain and s
 
 ### Examples
 
-- [Provisioning an AWS EC2 instance inside a VPC](examples/aws/ec2-in-a-vpc/README.md)
+- [Provisioning an AWS EC2 instance inside a VPC](examples/aws/ec2-in-a-vpc/README.md)   
+- [EC2 Instance Profile and IAM Roles](examples/aws/ec2-roles-and-instance-profiles/README.md)
